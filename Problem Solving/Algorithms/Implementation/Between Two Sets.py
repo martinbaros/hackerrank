@@ -26,6 +26,7 @@ def getTotalX(a, b):
     for x in range(int(n_a), n_b+1, int(n_a)):
         if math.gcd(x, n_b) == x:
             count += 1
+            
     return count
 
 
